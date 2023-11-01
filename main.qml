@@ -118,7 +118,7 @@ ApplicationWindow{
                     PropertyChanges {
                         target: bt_setting
                         anchors.margins: 5;
-                        source: "file:///Users/jeikong/Desktop/test2/Image/bt_setting.svg";
+                        source: "qrc:/Image/setting.svg";
                     }
                 },
                 State {
@@ -128,7 +128,7 @@ ApplicationWindow{
                         target: bt_setting
                         anchors.leftMargin: -2
                         anchors.topMargin: -2
-                        source: "file:///Users/jeikong/Desktop/test2/Image/bt_settingClose.svg"
+                        source: "qrc:/Image/settingClose.svg"
                     }
                 }
             ]
@@ -162,7 +162,7 @@ ApplicationWindow{
                     when : isConnected
                     PropertyChanges {
                         target: img_connected
-                        source:"file://Users/jeikong/Desktop/test2/Image/iconizer-connect-44.svg"
+                        source:"qrc:/Image/connect.svg"
                         anchors.margins: 5
                     }
                 },
@@ -170,7 +170,7 @@ ApplicationWindow{
                     when: (!isConnected)
                     PropertyChanges {
                         target: img_connected
-                        source: "file://Users/jeikong/Desktop/test2/Image/iconizer-disconnect.svg"
+                        source: "qrc:/Image/disconnect.svg"
                     }
                 }
 
@@ -272,7 +272,7 @@ ApplicationWindow{
                         id: img_rbq
                         anchors.fill: parent;
                         fillMode: Image.PreserveAspectFit;
-                        source: "file://Users/jeikong/Desktop/test2/Image/rbq.png"
+                        source: "qrc:/Image/rbq.png"
                         opacity: 0.2
                     }
 
@@ -377,7 +377,7 @@ ApplicationWindow{
                             anchors.right: parent.right;
                             anchors.left: parent.left;
                             fillMode: Image.PreserveAspectFit;
-                            source: "file://Users/jeikong/Desktop/test2/Image/dc-motor.svg"
+                            source: "qrc:/Image/dc-motor.svg"
                         }
 
                     }
@@ -430,7 +430,7 @@ ApplicationWindow{
                             anchors.right: parent.right;
                             anchors.left: parent.left;
                             fillMode: Image.PreserveAspectFit;
-                            source: "file://Users/jeikong/Desktop/test2/Image/house-search.png"
+                            source: "qrc:/Image/house-search.png"
                         }
 
                     }
@@ -481,7 +481,7 @@ ApplicationWindow{
                             anchors.right: parent.right;
                             anchors.left: parent.left;
                             fillMode: Image.PreserveAspectFit;
-                            source: "file://Users/jeikong/Desktop/test2/Image/dc-motor.svg"
+                            source: "qrc:/Image/dc-motor.svg"
                         }
 
                     }
@@ -534,7 +534,7 @@ ApplicationWindow{
                             anchors.right: parent.right;
                             anchors.left: parent.left;
                             fillMode: Image.PreserveAspectFit;
-                            source: "file://Users/jeikong/Desktop/test2/Image/noun-dog-robot-4314972 (1).png"
+                            source: "qrc:/Image/dog robot.png"
                         }
 
                     }
@@ -640,13 +640,13 @@ ApplicationWindow{
                     anchors.margins: 10
                     anchors.centerIn: parent;
                     fillMode: Image.PreserveAspectFit;
-                    source:"file://Users/jeikong/Desktop/test2/Image/robotic-arm.png"
+                    source:"qrc:/Image/robotic-arm.png"
                 }
             }
             onClicked: {
                 bg_arm.color = "#0598ce"
                 label_rbq3dmodel.text = "RBQ Arm"
-                img_rbq.source = "file://Users/jeikong/Desktop/test2/Image/rbqarm.png"
+                img_rbq.source = "qrc:/Image/rbqarm.png"
             }
         }
         Button {
@@ -666,7 +666,7 @@ ApplicationWindow{
                     anchors.margins: 10
                     anchors.centerIn: parent;
                     fillMode: Image.PreserveAspectFit;
-                    source:"file://Users/jeikong/Desktop/test2/Image/pngwing.com.png"
+                    source:"qrc:/Image/grenade.png"
                 }
             }
         }
@@ -687,7 +687,7 @@ ApplicationWindow{
                     anchors.margins: 10
                     anchors.centerIn: parent;
                     fillMode: Image.PreserveAspectFit;
-                    source:"file://Users/jeikong/Desktop/test2/Image/Gun.png"
+                    source:"qrc:/Image/Gun.png"
                 }
             }
         }

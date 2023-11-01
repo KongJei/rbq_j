@@ -43,7 +43,7 @@ Item {
                 anchors.bottom: parent.bottom;
                 width: 28;
                 fillMode: Image.PreserveAspectFit;
-                source: "file://Users/jeikong/Desktop/test2/Image/game_controller.svg"
+                source: "qrc:/Image/game_controller.svg"
             }
             contentItem: Text {
                 text: "Gamepad"
@@ -89,7 +89,7 @@ Item {
                 anchors.bottom: parent.bottom;
                 width: 32;
                 fillMode: Image.PreserveAspectFit;
-                source: "file://Users/jeikong/Desktop/test2/Image/vision.png"
+                source: "qrc:/Image/vision.png"
             }
             contentItem: Text {
                 text: "Vision"
@@ -179,7 +179,7 @@ Item {
                         anchors.right: parent.right;
                         anchors.left: parent.left;
                         fillMode: Image.PreserveAspectFit;
-                        source: "file://Users/jeikong/Desktop/test2/Image/ios-game-controller-b-outline.svg"
+                        source: "qrc:/Image/game-controller.svg"
                     }
 
                 }
@@ -229,7 +229,7 @@ Item {
                         anchors.right: parent.right;
                         anchors.left: parent.left;
                         fillMode: Image.PreserveAspectFit;
-                        source: "file://Users/jeikong/Desktop/test2/Image/move-button.png"
+                        source: "qrc:/Image/move-button.png"
                     }
 
                 }

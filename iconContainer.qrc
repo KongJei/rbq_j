@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/Wi-Fi off.png</file>
+        <file>Image/Wi-Fi.png</file>
+        <file>Image/battery_charging.png</file>
+        <file>Image/signal_4.svg</file>
+        <file>Image/signal_3.svg</file>
+        <file>Image/signal_2.svg</file>
+        <file>Image/signal_1.svg</file>
+        <file>Image/signal_0.svg</file>
+        <file>Image/empty-battery.png</file>
+        <file>Image/rbqarm.png</file>
+        <file>Image/Speaker.svg</file>
+        <file>Image/mic.svg</file>
+        <file>Image/Gun.png</file>
+        <file>Image/robotic-arm.png</file>
+        <file>Image/dog.svg</file>
+        <file>Image/disconnect.svg</file>
+        <file>Image/connect.svg</file>
+        <file>Image/house-search.png</file>
+        <file>Image/dog robot.png</file>
+        <file>Image/dc-motor.svg</file>
+        <file>Image/move-button.png</file>
+        <file>Image/game-controller.svg</file>
+        <file>Image/vision.png</file>
+        <file>Image/setting.svg</file>
+        <file>Image/settingClose.svg</file>
+        <file>Image/rbq.png</file>
+        <file>Image/game_controller.svg</file>
+        <file>Image/battery_charging.svg</file>
+        <file>Image/grenade.png</file>
+    </qresource>
+</RCC>

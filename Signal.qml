@@ -23,7 +23,7 @@ Item {
                     when: (signalPercent <20)
                     PropertyChanges {
                         target: img_signal
-                        source: "file://Users/jeikong/Desktop/test2/Image/signal_0.svg"
+                        source: "qrc:/Image/signal_0.svg"
                     }
                 },
                 State {
@@ -31,7 +31,7 @@ Item {
                     when: (signalPercent >20 && signalPercent <40) || (signalPercent == 20)
                     PropertyChanges {
                         target: img_signal
-                        source: "file://Users/jeikong/Desktop/test2/Image/signal_1.svg"
+                        source: "qrc:/Image/signal_1.svg"
                     }
                 },
                 State {
@@ -39,7 +39,7 @@ Item {
                     when: (signalPercent >40 && signalPercent <60) || (signalPercent == 40)
                     PropertyChanges {
                         target: img_signal
-                        source: "file://Users/jeikong/Desktop/test2/Image/signal_2.svg"
+                        source: "qrc:/Image/signal_2.svg"
                     }
                 },
                 State {
@@ -47,7 +47,7 @@ Item {
                     when: (signalPercent >60 && signalPercent <80) || (signalPercent == 60)
                     PropertyChanges {
                         target: img_signal
-                        source: "file://Users/jeikong/Desktop/test2/Image/signal_3.svg"
+                        source: "qrc:/Image/signal_3.svg"
                     }
                 },
                 State {
@@ -55,7 +55,7 @@ Item {
                     when: (signalPercent >80) || (signalPercent == 80)
                     PropertyChanges {
                         target: img_signal
-                        source: "file://Users/jeikong/Desktop/test2/Image/signal_4.svg"
+                        source: "qrc:/Image/signal_4.svg"
                     }
                 }
             ]

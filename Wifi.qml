@@ -24,7 +24,7 @@ Item {
                     when: !wifiConnected
                     PropertyChanges {
                         target: img_wifi
-                        source: "file://Users/jeikong/Desktop/test2/Image/Wi-Fi off.png"
+                        source: "qrc:/Image/Wi-Fi off.png"
                     }
                 },
                 State {
@@ -32,7 +32,7 @@ Item {
                     when: (wifiConnected) && (wifiPercent <20)
                     PropertyChanges {
                         target: img_wifi
-                        source: "file://Users/jeikong/Desktop/test2/Image/Wi-Fi.png"
+                        source: "qrc:/Image/Wi-Fi.png"
                     }
                 },
                 State {
@@ -40,7 +40,7 @@ Item {
                     when: (wifiConnected) && ((wifiPercent >20 && wifiPercent <40) || (wifiPercent == 20))
                     PropertyChanges {
                         target: img_wifi
-                        source: "file://Users/jeikong/Desktop/test2/Image/Wi-Fi.png"
+                        source: "qrc:/Image/Wi-Fi.png"
                     }
                 },
                 State {
@@ -48,7 +48,7 @@ Item {
                     when: (wifiConnected) && ((wifiPercent >40 && wifiPercent <60) || (wifiPercent == 40))
                     PropertyChanges {
                         target: img_wifi
-                        source: "file://Users/jeikong/Desktop/test2/Image/Wi-Fi.png"
+                        source: "qrc:/Image/Wi-Fi.png"
                     }
                 },
                 State {
@@ -56,7 +56,7 @@ Item {
                     when: (wifiConnected) && ((wifiPercent >60 && wifiPercent <80) || (wifiPercent == 60))
                     PropertyChanges {
                         target: img_wifi
-                        source: "file://Users/jeikong/Desktop/test2/Image/Wi-Fi.png"
+                        source: "qrc:/Image/Wi-Fi.png"
                     }
                 },
                 State {
@@ -64,7 +64,7 @@ Item {
                     when: (wifiConnected) && ((wifiPercent >80) || (wifiPercent == 80))
                     PropertyChanges {
                         target: img_wifi
-                        source: "file://Users/jeikong/Desktop/test2/Image/Wi-Fi.png"
+                        source: "qrc:/Image/Wi-Fi.png"
                     }
                 }
             ]

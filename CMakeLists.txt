@@ -36,6 +36,9 @@ else()
     else()
         add_executable(rbq_j
           ${PROJECT_SOURCES}
+          iconContainer.qrc
+
+
         )
     endif()
 endif()

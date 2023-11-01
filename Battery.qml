@@ -57,7 +57,7 @@ Item {
                 anchors.fill: parent;
                 anchors.centerIn: parent;
                 fillMode: Image.PreserveAspectFit
-                source: "file://Users/jeikong/Desktop/test2/Image/empty-battery.png"
+                source: "qrc:/Image/empty-battery.png"
             }
 
         }
@@ -68,7 +68,7 @@ Item {
             height:25
             visible: isCharging
             fillMode: Image.PreserveAspectFit
-            source: "file://Users/jeikong/Desktop/test2/Image/battery_charging.png"
+            source: "qrc:/Image/battery_charging.png"
             transform: Rotation { origin.x: 15; origin.y: 10; angle: 18}
 
         }
